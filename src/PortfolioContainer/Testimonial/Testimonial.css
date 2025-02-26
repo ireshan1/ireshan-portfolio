@@ -92,3 +92,39 @@
   font-weight: 400;
   margin: 0;
 }
+
+
+.testimonials{
+  width: 100;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.testimonials .wrapper {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.wrapper .section-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section--header .title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: capitalize;
+  line-height: 1.2;
+}
+
+.wrapper .testimonial-item {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10 rgba(0,0,0,0.2);
+}
+
+.info .img{
+  width: 80px;
+}

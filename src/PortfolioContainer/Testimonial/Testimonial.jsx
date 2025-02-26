@@ -207,12 +207,40 @@ export default function Testimonial(props) {
                 </div>
               </div>
             </OwlCarousel> */}
+            <section className="testimonials">
+              <div className="wrapper">
+                <div className="section-header">
+                  <h2 className="title">What our client says</h2>
+                </div>
+            
+
+              <div className="testimonial-content">
+                <div className="slider">
+                  <div>
+                    <div className="testimonial-item">
+                        <div className="info">
+                             <div className="name-job">
+                              <img src="../../img/Testimonial/daisy.jpg" alt="photo"/>
+                              <h3 className="name">Ireshan</h3>
+                              <span className="job">Web Developer</span>
+                             </div>
+                        </div>
+                        <p>asdfghjklkjhgertyujnbvcxsdfghjnbvcdfghjmcsfhjkmnbcxsdfrghjmn </p>
+                        <div className="rating">
+                          <i className="fas fa-star"></i>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </section>
           </div>
         </div>
       </section>
-      <div className="footer-image">
+      {/* <div className="footer-image">
         <img src={shape} alt="Phot0 not responding" />
-      </div>
+      </div> */}
     </div>
   );
 }
