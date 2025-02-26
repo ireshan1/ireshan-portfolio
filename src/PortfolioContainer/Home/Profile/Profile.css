@@ -69,8 +69,8 @@
   transition: 1s ease-out;
 }
 
-.colz .colz-icon i {
-  color: white;
+.colz .colz-icon i, a{
+  color: #ffffff !important;
   padding: 8px;
   padding-left: 0px;
 }

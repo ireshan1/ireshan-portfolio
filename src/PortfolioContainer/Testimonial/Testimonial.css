@@ -4,7 +4,7 @@
   background-position: center;
   background-attachment: fixed;
   position: relative;
-  z-index: -1;
+  z-index: 0;
 }
 .testimonial-section::before {
   content: "";
@@ -95,7 +95,7 @@
 
 
 .testimonials{
-  width: 100;
+  width: 100%;
   max-width: 1000px;
   margin: auto;
 }
@@ -125,6 +125,92 @@
   box-shadow: 0 5px 10 rgba(0,0,0,0.2);
 }
 
-.info .img{
+.testimonial-item .info {
+  display: flex;
+  align-items: center;
+}
+
+.info img{
   width: 80px;
+  height: 80px;
+  object-fit:cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.info .name {
+  font-size: 20px;
+  font-weight:600;
+  line-height:1.2;
+  text-transform: capitalize;
+}
+
+.info .job {
+  text-transform:capitalize;
+}
+
+.testimonial-item p {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.testimonial-item .rating{
+  margin-top: 15px;
+  font-size: 14px;
+  color: goldenrod;
+}
+
+.swiper {
+  width: 1000px;
+  height: auto;
+}
+
+/* Basic styles for navigation buttons */
+.swiper-button-next, .swiper-button-prev {
+  color: black; /* Change to desired color */
+  background-color: rgba(255, 255, 255, 0.5); /* Optional background */
+  position: relative;
+  z-index: 10; /* Ensure buttons are on top */
+}
+
+.swiper-pagination-bullet {
+  background-color: gray; /* Bullet color */
+  z-index: 10;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ffffff; /* Active bullet color */
+  z-index: 10;
+}
+
+.testimonial-content .swiper-pagination {
+  /* position: relative; */
+  margin-top: 40px;
+}
+
+
+
+.card-content {
+  padding: 10px;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  max-height: 132px; /* This is the collapsed height */
+}
+
+.card-content.expanded {
+  max-height: 1000px; /* Set to a large value or 'none' to allow the content to expand fully */
+}
+
+.read-more-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  margin-top: auto;
+  text-align: center;
+}
+
+.read-more-btn:hover {
+  background-color: #0056b3;
 }

@@ -17,19 +17,16 @@ export default function Profile() {
           <div className="colz">
             <div className="colz-icon">
               <a href="https://web.facebook.com/?_rdc=1&_rdr">
-                <i className="fa fa-facebook-square" />
+              <i class="fa-brands fa-facebook"  ></i>
               </a>
               <a href="https://web.facebook.com/?_rdc=1&_rdr">
-                <i className="fa fa-google-plus-square" />
+              <i class="fa-brands fa-google-plus"  ></i>
               </a>
               <a href="https://www.instagram.com/instructor_ehizeex/">
-                <i className="fa fa-instagram" />
-              </a>
-              <a href="https://www.youtube.com/channel/UCSSr5ZDFbilpZ592_ycoAwA">
-                <i className="fa fa-youtube-square" />
+              <i class="fa-brands fa-linkedin" ></i>
               </a>
               <a href="https://twitter.com/Ehiedu_baba">
-                <i className="fa fa-twitter" />
+              <i class="fa-brands fa-square-twitter" ></i>
               </a>
             </div>
           </div>
