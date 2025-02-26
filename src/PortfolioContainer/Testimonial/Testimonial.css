@@ -214,3 +214,17 @@
   color: #005dc0;
   font-weight: bold;
 }
+
+
+@media only screen and (max-width: 1110px) {
+  .swiper-slide{
+    width: 350px !important;
+  }
+}
+
+
+@media only screen and (max-width: 1023px) {
+  .swiper-slide{
+    width: 350px !important;
+  }
+}
